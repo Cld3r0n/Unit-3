@@ -11,4 +11,5 @@ jobs:
         run: date
 
       - name: Esperar 3 segundos
-        run: sleep 3
+        shell: bash
+        run: sleep 3
